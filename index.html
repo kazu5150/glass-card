@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="content">
+            <h2>Kazu</h2>
+            <h3>Glass Card</h3>
+            <p>Python Docker Git html CSS javascript</p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam eum in. Alias, possimus nobis.</p> -->
+            <a href="#">More Details</a>
+        </div>
+    </div>
+
+    <script src="./vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1, 
+        });
+        
+    </script>
+
+</body>
+</html>
